@@ -323,10 +323,13 @@ a:focus {
 @media (max-width: 991.98px) {
   .navbar {
     padding: 15px;
-    background: #20212b !important;
+    background: white !important;
   }
   .navbar-img {
     display: none;
+  }
+  .navbar .navbar-brand {
+    font-size: 11px;
   }
 
   .navbar a.nav-link {
@@ -372,7 +375,7 @@ a:focus {
 
 @media (max-width: 991.98px) {
   .home-header {
-    padding: 100px 0;
+    padding: 170px 0;
   }
 
   .home-header h2 {
