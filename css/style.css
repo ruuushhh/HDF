@@ -599,6 +599,7 @@ a:focus {
 
 .container-aim {
   padding: 10px;
+  box-shadow: 0px 1px rgb(240, 240, 240);
 }
 
 .row-aim:after {
@@ -638,12 +639,6 @@ img {
   display: block;
   height: auto;
   max-width: 100%;
-}
-.column-33-aim:hover img {
-  transform: scale(1.1);
-}
-.column-32-aim:hover img {
-  transform: scale(1.1);
 }
 
 @media (max-width: 991.98px) {
@@ -852,6 +847,11 @@ img {
   .about .section-header {
     margin-top: 30px;
   }
+
+  .about .about-img {
+    width: 100%;
+    height: 50vh;
+  }
 }
 
 /*******************************/
@@ -962,7 +962,7 @@ img {
 
 .donate .donate-form {
   padding: 90px 30px;
-  background: #fdbe33;
+  background: green;
 }
 
 .donate .donate-form .control-group {
@@ -1005,7 +1005,7 @@ img {
 
 .donate .donate-form .btn.btn-custom:hover,
 .donate .donate-form .btn.btn-custom.active {
-  color: #fdbe33;
+  color: green;
   border: 1px solid #ffffff;
   box-shadow: inset 0 0 0 30px #ffffff;
 }
@@ -1385,7 +1385,7 @@ img {
 
 .volunteer .volunteer-form {
   padding: 90px 30px;
-  background: #fdbe33;
+  background: green;
 }
 
 .volunteer .volunteer-form .control-group {
@@ -1426,7 +1426,7 @@ img {
 }
 
 .volunteer .volunteer-form .btn.btn-custom:hover {
-  color: #fdbe33;
+  color: green;
   border: 1px solid #ffffff;
   box-shadow: inset 0 0 0 30px #ffffff;
 }
