@@ -1342,6 +1342,9 @@ img {
   .project-aim2 {
     padding-left: 20px;
   }
+  .project-aim {
+    padding-left: 20px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .column-50-project1,
@@ -1349,6 +1352,9 @@ img {
   .column-50-project3 {
     width: 100%;
     text-align: center;
+  }
+  .project-aim1 {
+    padding-left: 20px;
   }
 
   .project-list {
