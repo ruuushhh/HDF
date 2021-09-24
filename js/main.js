@@ -133,6 +133,7 @@
     $(".testimonials-carousel").owlCarousel({
         center: true,
         autoplay: true,
+        smartSpeed: 200,
         dots: true,
         loop: true,
         responsive: {
