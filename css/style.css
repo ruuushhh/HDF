@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #4a4c70;
+  color: black;
 }
 
 a {
@@ -773,7 +773,7 @@ img {
   font-size: 22px;
   font-weight: 600;
   text-transform: capitalize;
-  color: #fdbe33;
+  color: #8d5a97;
 }
 
 .section-header h2 {
@@ -834,9 +834,9 @@ img {
 
 .about .about-tab .nav.nav-pills .nav-link:hover,
 .about .about-tab .nav.nav-pills .nav-link.active {
-  color: #fdbe33;
+  color: #8d5a97;
   padding-bottom: 7px;
-  border-bottom: 3px solid #fdbe33;
+  border-bottom: 3px solid #8d5a97;
 }
 
 .about .about-tab .tab-content {
@@ -928,6 +928,75 @@ img {
 
 .service .service-text p {
   margin: 0;
+}
+/*******************************/
+/********* What we Do CSS **********/
+/*******************************/
+.container-what {
+  position: relative;
+
+  background: white;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 5px #d0d0d0;
+}
+
+.row-what:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-66-what {
+  float: left;
+  width: 66.6666%;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.column-33-what {
+  float: left;
+  width: 33.33333%;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.column-32-what {
+  float: left;
+  width: 33.33333%;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .column-33-what {
+    padding: 20px;
+  }
+  .column-66-what {
+    padding: 20px;
+  }
+  .column-32-what {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .column-66-what,
+  .column-32-what,
+  .column-33-what {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
 }
 
 /*******************************/
@@ -1381,7 +1450,7 @@ img {
   margin: 45px 0;
   display: flex;
   align-items: center;
-  background: rgba(0, 0, 0, 0.5);
+  background: #c9e4ca;
 }
 
 .facts .facts-item {
@@ -1394,7 +1463,7 @@ img {
   margin-top: 10px;
   font-size: 60px;
   line-height: 60px;
-  color: #fdbe33;
+  color: #083d77;
 }
 
 .facts .facts-text {
@@ -1404,7 +1473,7 @@ img {
 .facts .facts-text h3 {
   position: relative;
   display: inline-block;
-  color: #ffffff;
+  color: black;
   font-size: 45px;
   font-weight: 700;
 }
@@ -1412,7 +1481,7 @@ img {
 .facts .facts-text h3::after {
   position: absolute;
   top: 0px;
-  color: #ffffff;
+  color: black;
   font-size: 25px;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -1429,7 +1498,7 @@ img {
 }
 
 .facts .facts-text p {
-  color: #ffffff;
+  color: black;
   font-size: 22px;
   font-weight: 600;
   margin: 0;
@@ -2518,6 +2587,9 @@ img {
   }
 }
 
+/*******************************/
+/********* Partner CSS **********/
+/*******************************/
 .row-partner {
   display: -ms-flexbox; /* IE 10 */
   display: flex;
