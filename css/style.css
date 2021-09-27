@@ -698,18 +698,27 @@ img {
 
 .column-33-what {
   float: left;
-  width: 33.33333%;
-  padding-right: 50px;
-  padding-top: 20px;
-  padding-left: 50px;
+  width: 30.33333%;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.column-33-what img {
+  height: 38.5vh;
+  min-width: 48vh;
 }
 
 .column-32-what {
   float: left;
   width: 33.33333%;
-  padding-right: 50px;
-  padding-top: 20px;
-  padding-left: 50px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+.column-32-what img {
+  height: 46vh;
+  width: 50vh;
 }
 
 img {
