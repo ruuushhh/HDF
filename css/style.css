@@ -703,10 +703,13 @@ img {
   padding-top: 0px;
   padding-left: 0px;
   padding-right: 0px;
+  height: 300px;
 }
 .column-33-what img {
-  height: 38.5vh;
-  min-width: 48vh;
+  width: 110%;
+  max-width: 500px;
+  height: auto;
+  max-height: 310px;
 }
 
 .column-32-what {
@@ -715,10 +718,13 @@ img {
   padding-right: 0px;
   padding-top: 0px;
   padding-left: 0px;
+  height: 300px;
 }
 .column-32-what img {
-  height: 46vh;
-  width: 50vh;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  max-height: 370px;
 }
 
 img {
