@@ -792,7 +792,6 @@ img {
 .column-50-project1 {
   float: left;
   width: 50%;
-  padding-left: 200px;
 }
 
 .column-50-project2 {
@@ -1020,7 +1019,7 @@ img {
   margin: 45px 0;
   display: flex;
   align-items: center;
-  background: #c9e4ca;
+  background-color: #c9e4ca;
 }
 
 .facts .facts-item {
