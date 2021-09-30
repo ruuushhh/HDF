@@ -25,6 +25,7 @@
     });
     
     
+    
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
