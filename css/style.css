@@ -755,13 +755,13 @@ img {
 
 @media (max-width: 991.98px) {
   .column-33-what {
-    padding: 20px;
+    padding: 0px;
   }
   .column-66-what {
     padding: 20px;
   }
   .column-32-what {
-    padding: 20px;
+    padding: 0px;
   }
 }
 @media screen and (max-width: 1000px) {
