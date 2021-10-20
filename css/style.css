@@ -912,6 +912,12 @@ img {
   background: #f3f6ff;
 }
 
+.causes .causes-item img {
+  width: 250px;
+  padding-left: 40px;
+  height: 250px;
+}
+
 .causes .causes-item i {
   margin-top: 10px;
   font-size: 60px;
@@ -1404,7 +1410,7 @@ img {
 .blog .blog-item {
   margin-bottom: 30px;
   padding-bottom: 30px;
-  background: #a2b6f3a4;
+  background: #f3f6ff;
 }
 
 .blog .blog-img {
