@@ -1,20 +1,35 @@
 <?php
-if(empty($_POST['name']) || empty($_POST['subject']) || empty($_POST['message']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-  http_response_code(500);
-  exit();
+  if(empty($_POST['name']) || empty($_POST['subject']) || empty($_POST['message']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+    echo "<script type='text/javascript'>
+    error();
+    </script>";
+    exit();
+  }
+  
+  $name = strip_tags(htmlspecialchars($_POST['name']));
+  $email = strip_tags(htmlspecialchars($_POST['email']));
+  $subject = strip_tags(htmlspecialchars($_POST['subject']));
+  $message = strip_tags(htmlspecialchars($_POST['message']));
+  $servername = "localhost";
+  $username = "root";
+  $password = "";
+  $dbname = "healingd_queries";
+
+try {
+  $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+  // set the PDO error mode to exception
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  $sql = "insert into Queries(Name, Email, Subject, Message) values ('$name', '$email', '$subject','$message')";
+  // use exec() because no results are returned
+  $conn->exec($sql);
+  echo "<script type='text/javascript'>
+  success();
+  </script>" ;
+} catch(PDOException $e) {
+  echo "<script type='text/javascript'>
+  error();
+  </script>";
 }
 
-$name = strip_tags(htmlspecialchars($_POST['name']));
-$email = strip_tags(htmlspecialchars($_POST['email']));
-$m_subject = strip_tags(htmlspecialchars($_POST['subject']));
-$message = strip_tags(htmlspecialchars($_POST['message']));
-
-$to = "rushikeshtayade2001@gmail.com"; // Change this email to your //
-$subject = "$m_subject:  $name";
-$body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\n\nEmail: $email\n\nSubject: $m_subject\n\nMessage: $message";
-$header = "From: $email";
-$header .= "Reply-To: $email";	
-
-if(!mail($to, $subject, $body, $header))
-  http_response_code(500);
+$conn = null;   
 ?>
