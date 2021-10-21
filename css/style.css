@@ -918,6 +918,14 @@ img {
   height: 250px;
 }
 
+@media (max-width: 575.98px) {
+  .causes .causes-item img {
+    width: 250px;
+    padding-left: 15px;
+    height: 250px;
+  }
+}
+
 .causes .causes-item i {
   margin-top: 10px;
   font-size: 60px;
