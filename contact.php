@@ -57,36 +57,38 @@
     </div>
     <!-- Top Bar End -->
 
-    <!-- Nav Bar Start -->
-    <div class="navbar navbar-expand-lg bg-dark navbar-dark">
-        <div class="container-fluid">
-            <img class="navbar-img" src="img/HDF logo .png" alt="Image" style="height: 100px; width: 100px; padding: 10px;">
-            <a href="index.html" class="navbar-brand">Healing Dove Foundation</a><br>
-            <button type="button" class="navbar-toggler bg-dark" data-toggle="collapse" data-target="#navbarCollapse" >
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <img class="navbar-img" src="img/HDF logo .png" alt="Image" style="height: 100px; width: 100px; padding: 10px;">
+                <a href="index.html" class="navbar-brand">Healing Dove Foundation</a><br>
+                <button type="button" class="navbar-toggler bg-dark" data-toggle="collapse" data-target="#navbarCollapse" >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav ml-auto">
-                    <a href="index.html" class="nav-item nav-link ">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="causes.html" class="nav-item nav-link">Work We Do</a>
-                    
-                    <a href="get-involved.html" class="nav-item nav-link">Get Involved</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu">
-                            <a href="multimedia.html" class="dropdown-item">Multimedia</a>
-                            <a href="blog.html" class="dropdown-item">Blogs</a>
-                            <a href="testimonials.html" class="dropdown-item">Testimonial</a>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link ">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="causes.html" class="nav-item nav-link">Work We Do</a>
+                        
+                        <a href="get-involved.html" class="nav-item nav-link">Get Involved</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu">
+                                <a href="features.html" class="dropdown-item">Feature Gallery</a>
+                                <a href="multimedia.html" class="dropdown-item">Multimedia</a>
+                                <a href="blog.html" class="dropdown-item">Blogs</a>
+                                <a href="testimonials.html" class="dropdown-item">Testimonial</a>
+                            </div>
                         </div>
+                        <a href="contact.php" class="nav-item nav-link active">Contact</a>
                     </div>
-                    <a href="contact.php" class="nav-item nav-link active">Contact</a>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Nav Bar End -->
+        <!-- Nav Bar End -->
         
         <!-- Page Header Start -->
         <div class="page-header">
@@ -192,7 +194,7 @@
     <div class="container copyright">
         <div class="row">
             <div class="col-md-6">
-                <p>&copy; <a href="#">healing Dove Foundation</a>, All Right Reserved.</p>
+                <p>&copy; <a href="#">healing Dove Foundation</a>, All Rights Reserved.</p>
             </div>
             <div></div>
         </div>
